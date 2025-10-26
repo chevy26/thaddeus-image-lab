@@ -1,1 +1,2 @@
-#index.html thaddeus-image-lab
+#index.html[
+](https://chevy26.github.io/thaddeus-image-lab/)
