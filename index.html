@@ -1,2 +1,41 @@
-#index.html[
-](https://chevy26.github.io/thaddeus-image-lab/)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thaddeus Image Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Thaddeus Image Lab</h1>
+    <p>Explore, filter, and enjoy a unique gallery experience!</p>
+  </header>
+  <section id="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="art">Art</button>
+    <button data-filter="tech">Tech</button>
+  </section>
+  <section id="gallery">
+    <!-- Example images; replace src with your own image files -->
+    <div class="image-card" data-category="nature">
+      <img src="nature1.jpg" alt="Nature 1">
+      <div class="caption">Nature</div>
+    </div>
+    <div class="image-card" data-category="art">
+      <img src="art1.jpg" alt="Art 1">
+      <div class="caption">Art</div>
+    </div>
+    <div class="image-card" data-category="tech">
+      <img src="tech1.jpg" alt="Tech 1">
+      <div class="caption">Tech</div>
+    </div>
+    <!-- Add more images as needed -->
+  </section>
+  <footer>
+    <p>© 2025 Thaddeus Image Lab | <a href="mailto:your@email.com">Contact</a></p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
